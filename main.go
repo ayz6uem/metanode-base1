@@ -1,9 +1,10 @@
 package main
 
 import (
+	"base1/task1"
+	"base1/task2"
 	"fmt"
 )
-import "base1/task1"
 
 func main() {
 	fmt.Println("task1 只出现一次的数字:", task1.SingleNumber([]int{2, 2, 1}))
@@ -39,4 +40,9 @@ func main() {
 	fmt.Println("task1 两数之和:", task1.TwoSum1([]int{3, 2, 4}, 6))
 	fmt.Println("task1 两数之和:", task1.TwoSum1([]int{3, 3}, 6))
 
+	task2.Pointer()
+	task2.Goroutine()
+	task2.Object()
+	task2.Channel()
+	task2.Count()
 }
