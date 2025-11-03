@@ -1,8 +1,11 @@
 package task1
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func Task1() {
+func TestTask1(t *testing.T) {
 	fmt.Println("task1 只出现一次的数字:", SingleNumber([]int{2, 2, 1}))
 	fmt.Println("task1 只出现一次的数字:", SingleNumber([]int{4, 1, 2, 1, 2}))
 	fmt.Println("task1 只出现一次的数字:", SingleNumber([]int{1}))

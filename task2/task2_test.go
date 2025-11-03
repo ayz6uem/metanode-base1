@@ -1,6 +1,8 @@
 package task2
 
-func Task2() {
+import "testing"
+
+func TestTask2(t *testing.T) {
 	Pointer()
 	Goroutine()
 	Object()
